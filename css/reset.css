@@ -1,0 +1,281 @@
+/*------------------------------------
+ *Author:FortunaTheme
+ *Template:Kaila
+ *Version:1.0
+ *-------------------------------------
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 26px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #383838;
+  letter-spacing: 0.6px;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 54px;
+  color: #181818;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 48px;
+  color: #181818;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 42px;
+  color: #181818;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 36px;
+  color: #181818;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 30px;
+  color: #181818;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 24px;
+  color: #181818;
+  font-weight: 600;
+}
+
+.section-title {
+  font-size: 40px;
+  margin: 0px 20px;
+  margin-bottom: 38px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #262626;
+}
+
+.title-small {
+  font-size: 12px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: .17em;
+  text-align: center;
+  transform: scale(1.1,1);
+  width: 500px;
+  margin: 0 auto;
+  padding-bottom: 8px;
+}
+
+.sub-header {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  letter-spacing: 0.8px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: 0;
+  color: #000;
+}
+
+.padding-style1 {
+  padding: 200px 0;
+}
+
+.padding-style2 {
+  padding: 80px 0;
+}
+
+.animation {
+  opacity: 0;
+}
+
+.btn-style1 {
+  padding: 10px 22px;
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  transition: all 0.5s;
+  border: none;
+  font-weight: 500;
+}
+
+.btn-style1:hover {
+  background-color: #ececec;
+  color: #000;
+}
+
+.btn-style2 {
+  padding: 9px 22px;
+  color: #fff;
+  display: inline-block;
+  transition: all 0.5s;
+  outline: 1px solid #fff;
+  font-weight: 500;
+}
+
+.btn-style2:hover,
+.btn-style2:focus {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-style3 {
+  padding: 10px 22px;
+  background-color: #1c4958;
+  color: #fff;
+  display: inline-block;
+  transition: all 0.5s;
+  font-weight: 500;
+}
+
+.btn-style3:hover,
+.btn-style3:focus {
+  background-color: #3e7f92;
+  /* background-color: #3e7f92; */
+  color: #fff;
+}
+
+.preloader {
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99999;
+}
+
+.preloader-img {
+  background-image: url(../images/loading.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+  position: absolute;
+  top: 50%;
+  width: 200px;
+}
+
+#scroll-top-area {
+  position: fixed;
+  bottom: 64px;
+  right: -18px;
+  z-index: 8;
+  transition: all 6s;
+  transform: rotate(270deg);
+  display: none;
+}
+
+#scroll-top-area span,
+#scroll-top-area i {
+  display: inline-block;
+}
+
+#scroll-top-area span {
+  font-weight: 500;
+  color: #808080;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+
+#scroll-top-area i {
+  text-align: center;
+  line-height: 38px;
+  margin-left: 6px;
+  color: #808080;
+}
+
+.display-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.display-content {
+  vertical-align: middle;
+  display: table-cell;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #1c4958;
+}
+.owl-theme .owl-dots .owl-dot span {
+  background: #bdbdbd;
+}
+
+.title-underline {
+  width: 15px;
+  height: 6px;
+  background: #000;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.title-underline::before {
+  content: "";
+  width: 15px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  right: 15px;
+  top: 2px;
+}
+
+.title-underline::after {
+  content: "";
+  width: 15px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 15px;
+  top: 2px;
+}
