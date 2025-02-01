@@ -21,13 +21,21 @@
             preloaderArea.delay(200).fadeOut('slow');
             themeWindow.scrollTop(0);
         });
-
-        var anchor = $('a');
-        if( anchor.attr('href') == '#' ) {
-        anchor.on("click", function(e) {
-            e.preventDefault();
-        });
-    }
+    //     var anchor = $('a');
+    //     if( anchor.attr('href') == '#' ) {
+    //     anchor.on("click", function(e) {
+    //         e.preventDefault();
+    //     });
+    // }
+    $('a').on("click", function (e) {
+        var href = $(this).attr('href');
+    //     console.log("Clicked link:", href); // Debugging log
+    
+        if (href === '#') {
+            console.log("Preventing navigation"); // Debugging log
+    //         e.preventDefault(); // Prevents navigation only for "#"
+        }
+    });
         /*
          * -----------------------------------------------------------------
          *-------------------------button animation-------------------------
