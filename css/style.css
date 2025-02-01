@@ -80,6 +80,70 @@ header nav ul li a:focus {
   background-color: #fff;
 }
 
+.arabic-header {
+  font-family: 'Noto Kufi Arabic', serif; /* Apply the Arabic font */
+  font-weight: 700; /* Make header bold */
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7); /* Background color for the box */
+  padding: 10px 20px; /* Padding inside the box */
+  border-radius: 8px; /* Rounded corners */
+  border: 2px solid #ffffff; /* Border color and width */
+  display: inline-block; /* Make the box fit the content */
+  margin: 20px auto; /* Center the box horizontally */
+}
+
+.club h2 {
+  font-family: 'Noto Kufi Arabic', serif; /* Apply the Arabic font */
+  font-weight: 700; /* Make club names bold */
+  color: #ffffff;
+}
+
+/* QR Code Grid */
+.qr-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.qr-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-card img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  filter: blur(5px);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.qr-card:hover img,
+.qr-card:focus img {
+  filter: blur(0);
+  transform: scale(1.05);
+}
+
+.qr-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
 /*-----------------------welcome section------------------*/
 .welcome-area {
   height: 100vh;
