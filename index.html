@@ -54,7 +54,7 @@
                         <img src="images/un.png" data-dark="images/un.png" alt="logo">
                     </a>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-7">
                     <nav class="menu single-page-nav" id="menu">
                         <ul>
                             <li><a class="home" href="#welcome-area">Home</a></li>
@@ -68,6 +68,35 @@
                         </ul>
                     </nav>
                 </div>
+                <div class="col-md-2">
+                    <button value="LOGIN" onclick="document.getElementById('id01').style.display='block'" style="width:auto;border-radius: 5px;padding: 1px 22px;" class="btn-style3 clearfix" id="">LOGIN</button>
+                </div>
+                    <div id="id01" class="modal">
+                        <form class="modal-content animate" action="/action_page.php" method="post">
+                            <div class="imgcontainer">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                            <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                            </div>
+
+                            <div class="container">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+                                
+                            <button type="submit">Login</button>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                            </div>
+
+                            <div class="container" style="background-color:#f1f1f1">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                            <span class="psw">Forgot <a href="#">password?</a></span>
+                            </div>
+                        </form>
+                    </div>
             </div>
         </div>
     </header>
