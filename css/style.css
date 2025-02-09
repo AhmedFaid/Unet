@@ -32,7 +32,7 @@
 }
 
 header {
-  height: 100px;
+  height: 120px;
   line-height: 100px;
   position: fixed;
   z-index: 99;
@@ -80,7 +80,7 @@ header nav ul li a:focus {
 
 .slicknav_menu {
   display: none;
-  height: 80px;
+  height: 100px;
   background-color: #fff;
 }
 
@@ -533,7 +533,7 @@ span.psw {
 }
 
 .service-item:hover{
-  background: url("../images/service.jpg");
+  background: url("../images/about01.png");
   color: #fff;
 }
 
