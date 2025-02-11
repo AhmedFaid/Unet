@@ -1265,7 +1265,7 @@ ul.item-list li {
 /*-----------------blog section-----------------*/
 
 .blog {
-  background-color: rgba(234, 234, 234, 0.2);
+  background-color: rgba(234, 234, 234, 0.5);
   overflow: hidden;
   padding-bottom: 30px;
 }
