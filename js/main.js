@@ -21,6 +21,7 @@
             preloaderArea.delay(200).fadeOut('slow');
             themeWindow.scrollTop(0);
         });
+
     //     var anchor = $('a');
     //     if( anchor.attr('href') == '#' ) {
     //     anchor.on("click", function(e) {
@@ -42,7 +43,7 @@
          * -----------------------------------------------------------------
          */
 
-
+         
 
         var startBtn = $(".start-btn");
 
@@ -443,7 +444,7 @@
             var darkLogo=logo.data("dark");
             if (top < 150) {
                 scrollTopArea.css('display', 'none');
-                logo.attr("src", "images/un.png");
+                logo.attr("src", "images/un1.png");
                 headerText.css('color', '#fff');
                 header.css({
                     'background': 'transparent',
@@ -458,7 +459,7 @@
                 header.css({
                     'background': '#fff',
                     'box-shadow': '0px 1px 6px #484848',
-                    'height': '80px',
+                    'height': '100px',
                     'line-height': '80px'
                 });
             }
