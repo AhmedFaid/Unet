@@ -439,6 +439,7 @@ span.psw {
   width: 100%;
   height: 100%;
   z-index: 1;
+  margin-top: 60px;
 }
 
 .about-content .about1 {
@@ -482,6 +483,31 @@ span.psw {
   display: block;
   z-index: -2;
 }
+
+.icon-slider {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.icon-track {
+    display: flex;
+    animation: slide 10s linear infinite;
+}
+
+.icon-track img {
+    width: 60px; /* Adjust size */
+    height: auto;
+    margin: 0 15px;
+}
+
+@keyframes slide {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); } /* Move halfway to loop smoothly */
+}
+
 /*-----------------services section-----------------*/
 
 .service {
@@ -548,7 +574,7 @@ span.psw {
 }
 
 .service-item {
-  display: flex;
+  display: flex; /* here */
   flex-direction: column;
   justify-content: space-between; /* Ensures even spacing */
   height: 100%; /* Makes sure all items take full height */
