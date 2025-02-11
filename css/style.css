@@ -494,7 +494,7 @@ span.psw {
 
 .icon-track {
     display: flex;
-    animation: slide 10s linear infinite;
+    animation: slide 20s linear infinite;
 }
 
 .icon-track img {
